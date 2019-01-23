@@ -1,0 +1,5 @@
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\bin\Debug\MathHelper.dll
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\bin\Debug\MathHelper.pdb
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\obj\Debug\MathHelper.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\obj\Debug\MathHelper.dll
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\obj\Debug\MathHelper.pdb

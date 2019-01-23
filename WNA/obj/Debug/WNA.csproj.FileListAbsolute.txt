@@ -1,0 +1,102 @@
+C:\Users\Администратор\Desktop\VS\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\Администратор\Desktop\VS\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\Администратор\Desktop\VS\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.LearningInit.resources
+C:\Users\Администратор\Desktop\VS\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\matek3022\Desktop\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\matek3022\Desktop\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\matek3022\Desktop\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\matek3022\Desktop\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Администратор\Desktop\WNA\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+D:\Настя\Магистратура\ИС\WNA\WNA\bin\Debug\WNA.exe.config
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.exe
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.pdb
+D:\Настя\Магистратура\ИС\WNA\WNA\bin\Debug\WNA.exe
+D:\Настя\Магистратура\ИС\WNA\WNA\bin\Debug\WNA.pdb
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.gui.LearningForm.resources
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.MainForm.resources
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+D:\Настя\Магистратура\ИС\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Олег\Desktop\WNA\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\Олег\Desktop\WNA\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\Олег\Desktop\WNA\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.csprojAssemblyReference.cache
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.cache
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.csproj.CoreCompileInputs.cache
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\Олег\Desktop\WNA\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\matek3022\Downloads\WNA — копия\WNA\bin\Debug\WNA.exe.config
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.exe
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.pdb
+C:\Users\matek3022\Downloads\WNA — копия\WNA\bin\Debug\WNA.exe
+C:\Users\matek3022\Downloads\WNA — копия\WNA\bin\Debug\WNA.pdb
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\matek3022\Downloads\WNA — копия\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Администратор\Desktop\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.csprojAssemblyReference.cache
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.cache
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.csproj.CoreCompileInputs.cache
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\Олег\Desktop\yfcnz\yfcnz\WNA (1)\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\WNA.exe.config
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.exe
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\WNA.exe
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\MathHelper.dll
+C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\MathHelper.pdb
