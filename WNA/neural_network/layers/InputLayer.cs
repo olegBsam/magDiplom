@@ -10,7 +10,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class InputLayer : LayerWithWeight
     {
-        public InputLayer(int neuronsCount, int nextLayerSize) : base(neuronsCount, nextLayerSize)
+        public InputLayer(int neuronsCount, int nextLayerSize) : base(neuronsCount, nextLayerSize, null)
         {
             for (int i = 0; i < neuronsCount; i++)
             {

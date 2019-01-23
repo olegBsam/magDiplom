@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathHelper.Function;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace WNA.neural_network.neurons
 
         public OffsetNeuron(int linkCount) : base(linkCount) {}
 
-        public override double GetOutput(double input)
+        public double GetOutput(double input)
         {
             return OFFSET;
         }

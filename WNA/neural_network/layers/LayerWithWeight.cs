@@ -1,4 +1,5 @@
 ﻿using MathHelper;
+using MathHelper.Function;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class LayerWithWeight : Layer<AbstractNeuronWithWeight>
     {
-        protected LayerWithWeight(int neuronsCount, int nextLayerSize) : base(neuronsCount, nextLayerSize)
+        protected LayerWithWeight(int neuronsCount, int nextLayerSize, IFunction func) : base(neuronsCount, nextLayerSize, func)
         {
             neurons.Add(new OffsetNeuron(nextLayerSize));
             this.size++;
@@ -43,11 +44,11 @@ namespace WNA.neural_network.layers
         {
             double[] result = new double[inputs.Length + 1];
 
-            result[0] = neurons[0].GetOutput(1);//нейрон смещения 
+            result[0] = ((OffsetNeuron)neurons[0]).GetOutput(1);//нейрон смещения 
 
             for (int i = 1; i < result.Length; i++)
             {
-                result[i] = neurons[i].GetOutput(inputs[i - 1]);
+                result[i] = neurons[i].GetOutput(inputs[i - 1], function);
             }
             return result;
         }

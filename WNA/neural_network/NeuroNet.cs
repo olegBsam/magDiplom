@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathHelper.Function;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,9 +45,13 @@ namespace WNA.neural_network
             InputLayerSize = inputLayerSize;
             OutputLayerSize = outputLayerSize;
             HiddenLayerSize = hiddenLayerSize;
+
+            IFunction rbFunc = new MathHelper.Function.Rbf.InverseQuadraticFunc();
+            IFunction notRbFunc = new MathHelper.Function.NotRbf.SigmoidFunc();
+
             inputLayer = new InputLayer(inputLayerSize, hiddenLayerSize);
-            hiddenLayer = new HiddenLayer(hiddenLayerSize, outputLayerSize);
-            outputLayer = new OutputLayer(outputLayerSize);
+            hiddenLayer = new HiddenLayer(hiddenLayerSize, outputLayerSize, rbFunc);
+            outputLayer = new OutputLayer(outputLayerSize, notRbFunc);
         }
 
         public double[] CalculateOutputs(double[] inputs)

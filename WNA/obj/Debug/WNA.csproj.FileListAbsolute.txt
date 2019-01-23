@@ -100,3 +100,16 @@ C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.Pr
 C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
 C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\MathHelper.dll
 C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\WNA\bin\Debug\MathHelper.pdb
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\bin\Debug\WNA.exe.config
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.exe
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.gui.LearningForm.resources
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.MainForm.resources
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\bin\Debug\WNA.exe
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\bin\Debug\WNA.pdb
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\bin\Debug\MathHelper.dll
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\WNA\bin\Debug\MathHelper.pdb

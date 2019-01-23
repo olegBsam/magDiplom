@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static MathHelper.MathHelper;
+using MathHelper.Function;
 
 namespace WNA.neural_network.neurons
 {
@@ -16,6 +16,7 @@ namespace WNA.neural_network.neurons
             R = rand.Next(100) / 100.0 + 0.1;
             C = rand.Next(100) / 100.0 - 0.5;
         }
+
         public double C
         {
             get;
@@ -27,14 +28,14 @@ namespace WNA.neural_network.neurons
             set;
         }
 
-        public virtual double GetOutput(double x)
+        public virtual double GetOutput(double x, IFunction func)
         {
-            return GaussFunction.Function(x, C, R);
+            return func.Function(x, C, R);
         }
 
-        public virtual double GetDerivative(double input)
+        public virtual double GetDerivative(double x, IFunction func)
         {
-            return GaussFunction.DerivativeOnX(input, C, R);
+            return func.DerivativeOnX(x, C, R);
         }
     }
 }

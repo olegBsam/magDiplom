@@ -3,3 +3,7 @@ C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\bin\Debug
 C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
 C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\obj\Debug\MathHelper.dll
 C:\Users\Администратор\Desktop\aaaaaaaaaaa\WNA\MathHelper\obj\Debug\MathHelper.pdb
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\bin\Debug\MathHelper.dll
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\bin\Debug\MathHelper.pdb
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\obj\Debug\MathHelper.dll
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\obj\Debug\MathHelper.pdb

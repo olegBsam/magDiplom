@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathHelper.Function;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class HiddenLayer : LayerWithWeight
     {
-        public HiddenLayer(int neuronsCount, int nextLayerSize) : base(neuronsCount, nextLayerSize)
+        public HiddenLayer(int neuronsCount, int nextLayerSize, IFunction func) : base(neuronsCount, nextLayerSize, func)
         {
             for (int i = 0; i < neuronsCount; i++)
             {
@@ -24,7 +25,7 @@ namespace WNA.neural_network.layers
 
             for (int i = 0; i < neurons.Count; i++)
             {   //ошибка умнож на вес (GetSumError) и умножается на произв от точки на входе нейрона скрыт слоя //
-                error[i] = neurons[i].GetSumError(errorOnOutput) * neurons[i].GetDerivative(i < neurons.Count - 1 ? layerInput[i] : 1);
+                error[i] = neurons[i].GetSumError(errorOnOutput) * neurons[i].GetDerivative(i < neurons.Count - 1 ? layerInput[i] : 1, function);
             }
             return error;
         }

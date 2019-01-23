@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathHelper.Function;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +11,16 @@ namespace WNA.neural_network.layers
     [Serializable]
     public abstract class Layer<T> where T : AbstractNeuron
     {
+        protected IFunction function;
         protected List<T> neurons = new List<T>();
         protected int size;
         protected int nextLayerSize;
 
-        protected Layer(int neuronsCount, int nextLayerSize)
+        protected Layer(int neuronsCount, int nextLayerSize, IFunction func)
         {
             this.size = neuronsCount;
             this.nextLayerSize = nextLayerSize;
+            this.function = func;
         }
 
         /// <summary>
@@ -34,7 +37,7 @@ namespace WNA.neural_network.layers
 
             for (int i = 0; i < size; i++)
             {
-                result[i] = neurons[i].GetOutput(inputs[i]);
+                result[i] = neurons[i].GetOutput(inputs[i], function);
             }
             return result;
         }

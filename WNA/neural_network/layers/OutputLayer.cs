@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathHelper.Function;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class OutputLayer : Layer<OutputNeuron>
     {
-        public OutputLayer(int neuronsCount) : base(neuronsCount, 0)
+        public OutputLayer(int neuronsCount, IFunction func) : base(neuronsCount, 0, func)
         {
             for (int i = 0; i < neuronsCount; i++)
             {
@@ -23,13 +24,13 @@ namespace WNA.neural_network.layers
             return neuronsOutput = CalculateOutput(inputs);
         }
 
-        //эталон (100) минус то что получилось, умножить на производную функции активации в точке входа выходного слоя
+        //эталон минус то что получилось, умножить на производную функции активации в точке входа выходного слоя
         internal IEnumerable<double> Train(double[] outputVector, double[] learnOutput, double[] layerInput)
         {
             double[] error = new double[neurons.Count];
             for (int i = 0; i < neurons.Count; i++)
             {
-                yield return error[i] = (learnOutput[i] - outputVector[i]) * neurons[i].GetDerivative(layerInput[i]);
+                yield return error[i] = (learnOutput[i] - outputVector[i]) * neurons[i].GetDerivative(layerInput[i], function);
             }
         }
     }

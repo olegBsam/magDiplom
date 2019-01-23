@@ -1,5 +1,5 @@
-﻿using System;
-using static MathHelper.MathHelper;
+﻿using MathHelper.Function;
+using System;
 
 namespace WNA.neural_network.neurons
 {
@@ -8,14 +8,14 @@ namespace WNA.neural_network.neurons
     {
         public OutputNeuron() : base(){}
 
-        public override double GetOutput(double x)
+        public override double GetOutput(double x, IFunction func)
         {
-            return SigmoidFunction.Function(x);
+            return func.Function(x);
         }
 
-        public override double GetDerivative(double x)
+        public override double GetDerivative(double x, IFunction func)
         {
-            return SigmoidFunction.DerivativeOnX(x);
+            return func.DerivativeOnX(x);
         }
     }
 }
