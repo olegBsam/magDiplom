@@ -74,7 +74,7 @@
             this.textBoxHidenNeuronsCount.Name = "textBoxHidenNeuronsCount";
             this.textBoxHidenNeuronsCount.Size = new System.Drawing.Size(100, 20);
             this.textBoxHidenNeuronsCount.TabIndex = 4;
-            this.textBoxHidenNeuronsCount.Text = "10";
+            this.textBoxHidenNeuronsCount.Text = "20";
             // 
             // label2
             // 

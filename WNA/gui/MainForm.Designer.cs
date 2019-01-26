@@ -150,7 +150,7 @@
             this.testSetPartNUD.Size = new System.Drawing.Size(54, 20);
             this.testSetPartNUD.TabIndex = 13;
             this.testSetPartNUD.Value = new decimal(new int[] {
-            1,
+            9,
             0,
             0,
             65536});

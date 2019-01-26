@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathHelper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,23 @@ namespace WNA.neural_network.layers
             {
                 neurons.Add(new InputNeuron(nextLayerSize));
             }
+            neurons.Add(new OffsetNeuron(nextLayerSize));
+            this.size++;
+        }
+
+        public override double[] GetOutputVector(double[] inputs, out double[] outputs)
+        {
+            outputs = inputs;
+            return inputs;
+        }
+
+        protected override double[] CalculateOutput(double[] inputs)
+        {
+            return inputs;
+        }
+
+        internal void LearnLayer(double[][] correct, double moment)
+        {
         }
     }
 }

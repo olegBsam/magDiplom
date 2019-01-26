@@ -21,9 +21,8 @@ namespace WNA
         {
             int classCount = int.Parse(textBoxClassCount.Text);
             int inputsCount = int.Parse(textBoxinputsCount.Text);
-            int hidenNeuronsCount = int.Parse(textBoxHidenNeuronsCount.Text);
 
-            Controller.GetController.CreateNeuronet(classCount: classCount, inputsCount: inputsCount, hiddenNeuronsCount: hidenNeuronsCount);
+            Controller.GetController.CreateNeuronet(classCount: classCount, inputsCount: inputsCount, hiddenNeuronsCount: inputsCount);
             this.Close();
         }
 

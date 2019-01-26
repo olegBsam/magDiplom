@@ -46,7 +46,7 @@ namespace WNA.neural_network
             OutputLayerSize = outputLayerSize;
             HiddenLayerSize = hiddenLayerSize;
 
-            IFunction rbFunc = new MathHelper.Function.Rbf.InverseQuadraticFunc();
+            IFunction rbFunc = new MathHelper.Function.Rbf.GaussFunc();
             IFunction notRbFunc = new MathHelper.Function.NotRbf.SigmoidFunc();
 
             inputLayer = new InputLayer(inputLayerSize, hiddenLayerSize);
@@ -83,7 +83,7 @@ namespace WNA.neural_network
         internal void CorrectWeights(double[][] corOutToHidden, double[][] corHiddenToInput, double moment)
         {
             hiddenLayer.LearnLayer(corOutToHidden, moment);
-            inputLayer.LearnLayer(corHiddenToInput, moment);
+            //inputLayer.LearnLayer(corHiddenToInput, moment);
         }
     }
 
