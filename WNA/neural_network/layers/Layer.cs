@@ -11,12 +11,12 @@ namespace WNA.neural_network.layers
     [Serializable]
     public abstract class Layer<T> where T : AbstractNeuron
     {
-        protected IFunction function;
+        protected IActivationFunction function;
         protected List<T> neurons = new List<T>();
         protected int size;
         protected int nextLayerSize;
 
-        protected Layer(int neuronsCount, int nextLayerSize, IFunction func)
+        protected Layer(int neuronsCount, int nextLayerSize, IActivationFunction func)
         {
             this.size = neuronsCount;
             this.nextLayerSize = nextLayerSize;

@@ -126,3 +126,16 @@ C:\Users\Администратор\Desktop\Git\repo1\magDiplom - копия\WNA
 C:\Users\Администратор\Desktop\Git\repo1\magDiplom - копия\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
 C:\Users\Администратор\Desktop\Git\repo1\magDiplom - копия\WNA\obj\Debug\WNA.Properties.Resources.resources
 C:\Users\Администратор\Desktop\Git\repo1\magDiplom - копия\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache
+E:\Git\repo1\magDiplom\WNA\bin\Debug\WNA.exe.config
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.exe
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.pdb
+E:\Git\repo1\magDiplom\WNA\bin\Debug\WNA.exe
+E:\Git\repo1\magDiplom\WNA\bin\Debug\WNA.pdb
+E:\Git\repo1\magDiplom\WNA\bin\Debug\MathHelper.dll
+E:\Git\repo1\magDiplom\WNA\bin\Debug\MathHelper.pdb
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.csprojResolveAssemblyReference.cache
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.gui.LearningForm.resources
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.MainForm.resources
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.NeuralNetInitForm.resources
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.Properties.Resources.resources
+E:\Git\repo1\magDiplom\WNA\obj\Debug\WNA.csproj.GenerateResource.Cache

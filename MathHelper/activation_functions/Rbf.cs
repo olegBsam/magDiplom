@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace MathHelper.Function.Rbf
 {
-    public class GaussFunc : IFunction
+    [ActivationFunction("GaussFunc", "Гаусс")]
+    public class GaussFunc : IActivationFunction
     {
         public double Function(double x, double c, double r)
         {
@@ -31,7 +32,8 @@ namespace MathHelper.Function.Rbf
         }
     }
 
-    public class MultiquadricFunc : IFunction
+    [ActivationFunction("MultiquadricFunc", "Мультиквадратичная")]
+    public class MultiquadricFunc : IActivationFunction
     {
         public double Function(double x, double c, double r)
         {
@@ -53,8 +55,9 @@ namespace MathHelper.Function.Rbf
             throw new NotImplementedException();
         }
     }
-
-    public class InverseQuadraticFunc : IFunction
+    
+    [ActivationFunction("InverseQuadraticFunc", "Инверсная квадратичная")]
+    public class InverseQuadraticFunc : IActivationFunction
     {
         public double Function(double x, double c, double r)
         {
@@ -76,8 +79,9 @@ namespace MathHelper.Function.Rbf
             throw new NotImplementedException();
         }
     }
-
-    public class InverseMultiquadricFunc : IFunction
+    
+    [ActivationFunction("InverseMultiquadricFunc", "Инверсная мультиквадратичная")]
+    public class InverseMultiquadricFunc : IActivationFunction
     {
         public double Function(double x, double c, double r)
         {
@@ -99,8 +103,9 @@ namespace MathHelper.Function.Rbf
             throw new NotImplementedException();
         }
     }
-
-    public class TricubeFunc : IFunction
+    
+    [ActivationFunction("TricubeFunc", "Трикубическая")]
+    public class TricubeFunc : IActivationFunction
     {
         public double Function(double x, double c, double r)
         {

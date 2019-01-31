@@ -11,7 +11,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class HiddenLayer : LayerWithWeight
     {
-        public HiddenLayer(int neuronsCount, int nextLayerSize, IFunction func) : base(neuronsCount, nextLayerSize, func)
+        public HiddenLayer(int neuronsCount, int nextLayerSize, IActivationFunction func) : base(neuronsCount, nextLayerSize, func)
         {
             for (int i = 0; i < neuronsCount; i++)
             {

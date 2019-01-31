@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MathHelper.Function;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 using System.Threading.Tasks;
@@ -151,9 +153,27 @@ namespace WNA
             }).Start();
         }
 
-        internal void CreateNeuronet(int classCount, int inputsCount, int hiddenNeuronsCount)
+        internal void CreateNeuronet(int classCount, int inputsCount, int hiddenNeuronsCount, Type hiddenAF, Type outAF)
         {
-            neuralNetwork = new NeuroNet(inputsCount, hiddenNeuronsCount, classCount);
+            neuralNetwork = new NeuroNet(inputsCount, hiddenNeuronsCount, classCount,
+                (IActivationFunction)Activator.CreateInstance(hiddenAF),
+                (IActivationFunction)Activator.CreateInstance(outAF));
+        }
+
+        internal Dictionary<Type, string> GetActivationFunctionTypes()
+        {
+            var assembly = Assembly.GetAssembly(typeof(ActivationFunctionAttribute));
+
+            Dictionary<Type, string> res = new Dictionary<Type, string>();
+            foreach (var type in assembly.GetTypes())
+            {
+                var attributes = type.GetCustomAttributes(true).Where(atr => atr is ActivationFunctionAttribute).ToList();
+                if (attributes.Count() != 0)
+                {
+                    res.Add(type, ((ActivationFunctionAttribute)attributes.First()).labelName);
+                }
+            }
+            return res;
         }
     }
 }

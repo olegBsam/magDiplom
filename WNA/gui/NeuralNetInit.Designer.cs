@@ -36,13 +36,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxClassCount = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.comboBoxHiddenActFunc = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboboxOutActFunc = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // buttonCancel
             // 
             this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(171, 104);
+            this.buttonCancel.Location = new System.Drawing.Point(256, 139);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 0;
@@ -52,7 +56,7 @@
             // buttonAccept
             // 
             this.buttonAccept.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAccept.Location = new System.Drawing.Point(90, 104);
+            this.buttonAccept.Location = new System.Drawing.Point(175, 139);
             this.buttonAccept.Name = "buttonAccept";
             this.buttonAccept.Size = new System.Drawing.Size(75, 23);
             this.buttonAccept.TabIndex = 1;
@@ -62,7 +66,7 @@
             // 
             // textBoxinputsCount
             // 
-            this.textBoxinputsCount.Location = new System.Drawing.Point(145, 31);
+            this.textBoxinputsCount.Location = new System.Drawing.Point(228, 31);
             this.textBoxinputsCount.Name = "textBoxinputsCount";
             this.textBoxinputsCount.Size = new System.Drawing.Size(100, 20);
             this.textBoxinputsCount.TabIndex = 3;
@@ -70,7 +74,7 @@
             // 
             // textBoxHidenNeuronsCount
             // 
-            this.textBoxHidenNeuronsCount.Location = new System.Drawing.Point(145, 57);
+            this.textBoxHidenNeuronsCount.Location = new System.Drawing.Point(228, 57);
             this.textBoxHidenNeuronsCount.Name = "textBoxHidenNeuronsCount";
             this.textBoxHidenNeuronsCount.Size = new System.Drawing.Size(100, 20);
             this.textBoxHidenNeuronsCount.TabIndex = 4;
@@ -96,7 +100,7 @@
             // 
             // textBoxClassCount
             // 
-            this.textBoxClassCount.Location = new System.Drawing.Point(145, 5);
+            this.textBoxClassCount.Location = new System.Drawing.Point(228, 5);
             this.textBoxClassCount.Name = "textBoxClassCount";
             this.textBoxClassCount.Size = new System.Drawing.Size(100, 20);
             this.textBoxClassCount.TabIndex = 2;
@@ -111,13 +115,51 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Кол-во выходов:";
             // 
+            // comboBoxActFunc
+            // 
+            this.comboBoxHiddenActFunc.FormattingEnabled = true;
+            this.comboBoxHiddenActFunc.Location = new System.Drawing.Point(132, 83);
+            this.comboBoxHiddenActFunc.Name = "comboBoxActFunc";
+            this.comboBoxHiddenActFunc.Size = new System.Drawing.Size(196, 21);
+            this.comboBoxHiddenActFunc.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 86);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(92, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "ФА скрыт. слоя:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 113);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(112, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "ФА выходного слоя:";
+            // 
+            // comboBox1
+            // 
+            this.comboboxOutActFunc.FormattingEnabled = true;
+            this.comboboxOutActFunc.Location = new System.Drawing.Point(132, 110);
+            this.comboboxOutActFunc.Name = "comboBox1";
+            this.comboboxOutActFunc.Size = new System.Drawing.Size(196, 21);
+            this.comboboxOutActFunc.TabIndex = 10;
+            // 
             // NeuralNetInitForm
             // 
             this.AcceptButton = this.buttonAccept;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(255, 136);
+            this.ClientSize = new System.Drawing.Size(340, 171);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.comboboxOutActFunc);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.comboBoxHiddenActFunc);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -143,5 +185,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxClassCount;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBoxHiddenActFunc;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboboxOutActFunc;
     }
 }

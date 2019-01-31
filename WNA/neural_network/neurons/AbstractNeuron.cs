@@ -28,12 +28,12 @@ namespace WNA.neural_network.neurons
             set;
         }
 
-        public virtual double GetOutput(double x, IFunction func)
+        public virtual double GetOutput(double x, IActivationFunction func)
         {
             return func.Function(x, C, R);
         }
 
-        public virtual double GetDerivative(double x, IFunction func)
+        public virtual double GetDerivative(double x, IActivationFunction func)
         {
             return func.DerivativeOnX(x, C, R);
         }

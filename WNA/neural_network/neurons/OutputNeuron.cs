@@ -8,12 +8,12 @@ namespace WNA.neural_network.neurons
     {
         public OutputNeuron() : base(){}
 
-        public override double GetOutput(double x, IFunction func)
+        public override double GetOutput(double x, IActivationFunction func)
         {
             return func.Function(x);
         }
 
-        public override double GetDerivative(double x, IFunction func)
+        public override double GetDerivative(double x, IActivationFunction func)
         {
             return func.DerivativeOnX(x);
         }

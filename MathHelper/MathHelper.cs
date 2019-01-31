@@ -21,14 +21,3 @@ namespace MathHelper
         }
     }
 }
-
-namespace MathHelper.Function
-{
-    public interface IFunction
-    { 
-        double Function(double x, double c = 0, double r = 0);
-        double DerivativeOnX(double x, double c = 0, double r = 0);
-        double DerivativeOnC(double x, double c = 0, double r = 0);
-        double DerivativeOnR(double x, double c = 0, double r = 0);
-    }
-}

@@ -7,3 +7,9 @@ C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\bin\D
 C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\bin\Debug\MathHelper.pdb
 C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\obj\Debug\MathHelper.dll
 C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\obj\Debug\MathHelper.pdb
+C:\Users\Администратор\Desktop\Git\repo1\magDiplom\MathHelper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+E:\Git\repo1\magDiplom\MathHelper\bin\Debug\MathHelper.dll
+E:\Git\repo1\magDiplom\MathHelper\bin\Debug\MathHelper.pdb
+E:\Git\repo1\magDiplom\MathHelper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+E:\Git\repo1\magDiplom\MathHelper\obj\Debug\MathHelper.dll
+E:\Git\repo1\magDiplom\MathHelper\obj\Debug\MathHelper.pdb

@@ -1,9 +1,6 @@
 ﻿using MathHelper.Function;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WNA.neural_network.layers;
 
 namespace WNA.neural_network
@@ -40,14 +37,11 @@ namespace WNA.neural_network
         public double[] OutputLayerInput { get; private set; }
 
 
-        public NeuroNet(int inputLayerSize, int hiddenLayerSize, int outputLayerSize)
+        public NeuroNet(int inputLayerSize, int hiddenLayerSize, int outputLayerSize, IActivationFunction rbFunc, IActivationFunction notRbFunc)
         {
             InputLayerSize = inputLayerSize;
             OutputLayerSize = outputLayerSize;
             HiddenLayerSize = hiddenLayerSize;
-
-            IFunction rbFunc = new MathHelper.Function.Rbf.GaussFunc();
-            IFunction notRbFunc = new MathHelper.Function.NotRbf.SigmoidFunc();
 
             inputLayer = new InputLayer(inputLayerSize, hiddenLayerSize);
             hiddenLayer = new HiddenLayer(hiddenLayerSize, outputLayerSize, rbFunc);

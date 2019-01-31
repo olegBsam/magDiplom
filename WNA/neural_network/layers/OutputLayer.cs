@@ -11,7 +11,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class OutputLayer : Layer<OutputNeuron>
     {
-        public OutputLayer(int neuronsCount, IFunction func) : base(neuronsCount, 0, func)
+        public OutputLayer(int neuronsCount, IActivationFunction func) : base(neuronsCount, 0, func)
         {
             for (int i = 0; i < neuronsCount; i++)
             {

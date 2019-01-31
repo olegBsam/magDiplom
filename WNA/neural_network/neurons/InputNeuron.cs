@@ -12,7 +12,7 @@ namespace WNA.neural_network.neurons
     {
         public InputNeuron(int linkCount) : base(linkCount) {}
 
-        public override double GetOutput(double input, IFunction func)
+        public override double GetOutput(double input, IActivationFunction func)
         {
             return input;
         }

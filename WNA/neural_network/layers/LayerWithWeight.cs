@@ -12,7 +12,7 @@ namespace WNA.neural_network.layers
     [Serializable]
     public class LayerWithWeight : Layer<AbstractNeuronWithWeight>
     {
-        protected LayerWithWeight(int neuronsCount, int nextLayerSize, IFunction func) : base(neuronsCount, nextLayerSize, func)
+        protected LayerWithWeight(int neuronsCount, int nextLayerSize, IActivationFunction func) : base(neuronsCount, nextLayerSize, func)
         {
             neurons.Add(new OffsetNeuron(nextLayerSize));
             this.size++;
